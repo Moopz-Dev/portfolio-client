@@ -1,0 +1,77 @@
+.carousel-parent {
+	height: 100vh;
+	/* background-color: #c62368; */
+	background-color: black;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.gallery {
+	height: 100px;
+	width: 100px;
+	position: relative;
+	transform-style: preserve-3d;
+	animation: 100s gallery linear infinite;
+	transition: all 0.5s;
+}
+
+.gallery:hover {
+	animation-play-state: paused;
+}
+.gallery span {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform-origin: center;
+	transform: rotateY(calc(var(--i) * 36deg)) translateZ(400px);
+}
+
+.gallery span svg {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	cursor: pointer;
+	-webkit-box-reflect: below 0
+		linear-gradient(transparent, rgba(255, 255, 255, 0.25));
+}
+
+svg:hover {
+	opacity: 1;
+}
+
+@keyframes gallery {
+	0% {
+		transform: perspective(1000px) rotateY(0deg);
+	}
+	100% {
+		transform: perspective(1000px) rotateY(360deg);
+	}
+}
+
+@media (max-width: 880px) {
+	.gallery {
+		height: 80px;
+		width: 80px;
+		position: relative;
+		transform-style: preserve-3d;
+		animation: 20s gallery linear infinite;
+		transition: all 0.5s;
+	}
+	.gallery span {
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform-style: preserve-3d;
+		transform-origin: center;
+		transform: rotateY(calc(var(--i) * 36deg)) translateZ(250px);
+	}
+}

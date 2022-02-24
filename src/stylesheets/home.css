@@ -11,8 +11,9 @@
 
 .introduction div h1 {
 	font-weight: bold;
-	color: rgba(255, 255, 255, 0.548);
+	color: darkslategray;
 	font-size: 80px;
+	animation: 5s blink-effect linear infinite;
 }
 
 .introduction div h1:hover {
@@ -27,11 +28,44 @@
 	border: none;
 	/* width: 30%; */
 }
+/* .section {
+	height: 100vh;
+} */
+
+.dev-image :hover {
+	transform: scale(1.03);
+	transition: all 0.7s;
+	/* overflow: hidden; */
+}
+
+.max-w-650 {
+	max-width: 650px;
+}
+
+.pongsathorn {
+	background-size: 100%, 100%;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 0.5s;
+}
+
+.pongsathorn :hover {
+	transform: scale(1.05);
+	color: cyan;
+}
+
+pre {
+	font-size: 18px;
+	font-family: "Montserrat", sans-serif;
+	color: whitesmoke;
+	transition: all 1s;
+}
 
 @media (max-width: 750px) {
 	.introduction div h1 {
 		font-weight: bold;
-		color: rgba(255, 255, 255, 0.548);
+		color: darkslategray;
 		font-size: 45px;
 	}
 	.primary-button {
@@ -41,5 +75,83 @@
 		border: none;
 		width: auto;
 		padding: 5px 5px;
+	}
+	.pongsathorn {
+		background-size: 150%, 140%;
+		height: 100vh;
+	}
+
+	pre {
+		font-size: 16px;
+		font-family: "Montserrat", sans-serif;
+	}
+}
+
+@media (max-width: 420px) {
+	.introduction div h1 {
+		font-weight: bold;
+		color: darkslategray;
+		font-size: 36px;
+	}
+	.primary-button {
+		background-color: #fff;
+		height: 45px;
+		border-radius: 10px;
+		border: none;
+		width: 40%;
+		padding: 5px 5px;
+	}
+	.intro-content {
+		flex-direction: column;
+	}
+	.pongsathorn {
+		background-size: 250%, 140%;
+	}
+	pre {
+		font-size: 12px;
+		font-family: "Montserrat", sans-serif;
+	}
+}
+
+@keyframes blink-effect {
+	0% {
+		color: darkslategray;
+		text-shadow: none;
+	}
+	1% {
+		color: white;
+		text-shadow: 0px 0px 15px rgb(227, 255, 160);
+	}
+	11% {
+		color: darkslategray;
+		text-shadow: none;
+	}
+	12% {
+		color: white;
+		text-shadow: 0px 0px 20px rgb(243, 148, 255);
+	}
+	35% {
+		color: darkslategray;
+		text-shadow: none;
+	}
+	36% {
+		color: white;
+		text-shadow: 0px 0px 25px rgb(253, 139, 139);
+	}
+	39% {
+		color: darkslategray;
+		text-shadow: none;
+	}
+	40% {
+		color: white;
+		text-shadow: 0px 0px 30px rgb(188, 245, 149);
+	}
+	49% {
+		color: darkslategray;
+		text-shadow: none;
+	}
+	50% {
+		color: white;
+		text-shadow: 0px 0px 10px rgb(132, 251, 255);
 	}
 }

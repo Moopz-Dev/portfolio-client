@@ -1,6 +1,6 @@
 .menu-icon {
 	color: orangered;
-	font-size: 70px;
+	font-size: 40px;
 	margin: 20px;
 	z-index: 2;
 	cursor: pointer;
@@ -46,6 +46,53 @@
 	border-bottom: 2px solid cyan;
 	color: cyan;
 	transition: all 0.2s;
+}
+
+.contact {
+	padding-top: 0px;
+}
+
+.contact img {
+	height: 50vh;
+	width: 100%;
+}
+
+input,
+textarea {
+	margin-top: 25px;
+	border: none !important;
+}
+
+.form-control {
+	background: linear-gradient(145deg, #ffffff, #dfe0e1);
+	box-shadow: 5px 5px 10px #d3d4d5, -5px -5px 10px #ffffff !important;
+}
+
+.form-control:focus {
+	transform: scale(1.02);
+}
+
+.contact button {
+	background-color: #0000ff9c;
+	color: white;
+	font: bold;
+}
+
+.footer .content {
+	background-color: #273036;
+	color: white;
+	text-align: center;
+}
+
+.footer-icon {
+	color: white;
+	font-size: 36px;
+}
+
+.footer-icon:hover {
+	color: cyan;
+	transform: scale(1.05);
+	cursor: pointer;
 }
 
 @media (max-width: 750px) {
