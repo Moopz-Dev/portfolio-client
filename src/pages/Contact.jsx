@@ -11,18 +11,15 @@ function Contact() {
 						<img src="./contact.svg" alt="" />
 					</div>
 					<div className="col-md-6">
-						<div className="contact-form m-2 p-5 n-box2">
-							<h3 className="font-bold">Contact Me</h3>
-							<input type="text" className="form-control" placeholder="Name" />
-							<input type="text" className="form-control" placeholder="Name" />
-							<textarea
-								className="form-control"
-								name=""
-								id=""
-								cols="30"
-								rows={3}
-							/>
-							<button className=" primary-button w-100 mt-5">SUBMIT</button>
+						<div className="contact-form m-2 p-5 pb-3 n-box2">
+							<h3 className="font-bold mb-3">Contact Me</h3>
+							<p>Name : Pongsathorn Tiranun</p>
+							<p>Telephone no.: (+66)90-996-9848 </p>
+							<p>
+								Preferable Communication Protocol: English language, Thai
+								language, Coding language{" "}
+							</p>
+							<p> Email : pongzthor@gmail.com </p>
 						</div>
 					</div>
 				</div>

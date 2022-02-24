@@ -12,14 +12,14 @@ const projectsData = [
 			"https://shots.codepen.io/moopz-dev/pen/WNEWGEL-800.webp?version=1637666492",
 		description:
 			"A landing page made for guitar product written in HTML and CSS",
-		link: "https://codepen.io/moopz-dev/full/WNEWGEL",
+		link: "https://codepen.io/moopz-dev/pen/WNEWGEL",
 	},
 	{
 		title: "Technical Documentation Page",
 		image:
 			"https://shots.codepen.io/moopz-dev/pen/zYdXjdG-1280.webp?version=1637666492",
 		description: "A technical Documentation Page for Ethereum",
-		link: "https://codepen.io/moopz-dev/full/zYdXjdG",
+		link: "https://codepen.io/moopz-dev/pen/zYdXjdG",
 	},
 	{
 		title: "Theme Park Visitor Survey Form",
@@ -27,7 +27,7 @@ const projectsData = [
 			"https://shots.codepen.io/moopz-dev/pen/mdMgegW-1280.webp?version=1637666492",
 		description:
 			"A Survey Form written in HTML and CSS that utilizes different HTML form elements",
-		link: "https://codepen.io/moopz-dev/full/mdMgegW",
+		link: "https://codepen.io/moopz-dev/pen/mdMgegW",
 	},
 	{
 		title: "MERN Blog Webapp",

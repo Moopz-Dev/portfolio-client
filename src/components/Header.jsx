@@ -26,9 +26,9 @@ function Header() {
 				<li>
 					<Link to="/projects">Projects</Link>
 				</li>
-				<li>
+				{/* <li>
 					<Link to="/courses">Courses</Link>
-				</li>
+				</li> */}
 				<li>
 					<Link to="/contact">Contact</Link>
 				</li>
