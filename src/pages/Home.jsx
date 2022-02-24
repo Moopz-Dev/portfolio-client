@@ -59,13 +59,7 @@ function Home() {
 				<div className="  row pt-5 justify-content-center">
 					<div className="col-md-4">
 						<div data-aos="fade-up" className=" overflow-hidden rounded">
-							<img
-								className=""
-								src={doodle}
-								alt=""
-								height="400"
-								className="w-100"
-							/>
+							<img src={doodle} alt="" height="400" className="w-100" />
 						</div>
 					</div>
 				</div>

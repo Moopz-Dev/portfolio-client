@@ -17,16 +17,20 @@ function Footer() {
 							<p>Developed by Pongsathorn Tiranun </p>
 							<hr />
 							<div className="d-flex justify-content-between">
-								<a target="_blank" href="https://github.com/Moopz-Dev">
+								<a
+									target="_blank"
+									rel="noreferrer"
+									href="https://github.com/Moopz-Dev">
 									<FaGithub className="footer-icon" />
 								</a>
 								<a
 									target="_blank"
+									rel="noreferrer"
 									href="https://www.linkedin.com/in/pongsathorn-tiranun-a5ba6a186">
 									<FaLinkedin className="footer-icon" />
 								</a>
 
-								<a href="mailto:pongzthor@gmail.com">
+								<a href="mailto:pongzthor@gmail.com" rel="noreferrer">
 									<FaMailBulk className="footer-icon" />
 								</a>
 							</div>

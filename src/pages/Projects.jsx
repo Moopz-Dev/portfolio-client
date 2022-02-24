@@ -55,10 +55,12 @@ function Projects() {
 											<h3>{item.title}</h3>
 											<hr />
 											<p>{item.description}</p>
-											<a className="w-75" target="_blank" href={item.link}>
-												<button role="button" className="primary-button w-100">
-													VIEW
-												</button>
+											<a
+												className="w-75"
+												target="_blank"
+												rel="noreferrer"
+												href={item.link}>
+												<button className="primary-button w-100">VIEW</button>
 											</a>
 										</div>
 									</div>

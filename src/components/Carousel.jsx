@@ -8,7 +8,7 @@ import {
 	FaReact,
 	FaGithub,
 } from "react-icons/fa";
-import { SiSequelize, SiMysql, SiMongodb, SiFigma } from "react-icons/si";
+import { SiSequelize, SiMysql, SiMongodb } from "react-icons/si";
 function Carousel() {
 	return (
 		<div>

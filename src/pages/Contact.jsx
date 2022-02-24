@@ -1,5 +1,4 @@
 import React from "react";
-import { MdContactMail } from "react-icons/md";
 import Header from "../components/Header";
 function Contact() {
 	return (
